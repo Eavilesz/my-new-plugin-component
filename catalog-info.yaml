@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: my-new-plugin-component
+  annotations:
+   github.com/project-slug: Eavilesz/my-new-plugin-component
 spec:
   lifecycle: production
   owner: my-team
